@@ -25,7 +25,7 @@ const Navbar = () => {
           <p className="text-white text-[18px] font-bold cursor-pointer flex items-center">
             Praful &nbsp;
             <span className="sm:block hidden text-[14px] font-medium">
-              | &nbsp;Frontend Devloper
+              | &nbsp;Frontend Developer
             </span>
           </p>
         </Link>
