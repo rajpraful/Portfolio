@@ -129,6 +129,7 @@
 .canvas-container,
 .canvas-container > * {
   touch-action: auto !important;
+  pointer-events: none !important;
 }
 
 @keyframes mulShdSpin {
