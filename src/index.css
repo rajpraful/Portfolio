@@ -126,6 +126,11 @@
   transform: translateZ(0);
 }
 
+.canvas-container,
+.canvas-container > * {
+  touch-action: auto !important;
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {
