@@ -67,6 +67,7 @@ const Contact = () => {
           ref={formRef}
           onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8"
+          id="contact"
         >
           <label className="flex flex-col">
             <span className="text-wight font-medium mb-4">Your Name</span>
@@ -120,4 +121,4 @@ const Contact = () => {
   );
 };
 
-export default SectionWrapper(Contact, "contact");
+export default SectionWrapper(Contact);
