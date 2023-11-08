@@ -19,10 +19,10 @@ const ServiceCard = ({ index, title, icon }) => {
             scale: 1,
             speed: 450,
           }}
-          className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+          className="bg-tertiary rounded-[20px] py-5 px-5 min-h-[280px] flex justify-evenly items-center flex-col"
         >
           <img src={icon} alt={title} className="w-16 h-16 object-contain" />
-          <h3 className="text-white text-[20px] font-bold text-center">
+          <h3 className="text-white text-[20px] font-bold text-center min-h-[60px]">
             {title}
           </h3>
         </div>
@@ -40,12 +40,15 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] max-w-4xl leading-[30px]"
       >
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque aliquam
-        magni repellendus commodi assumenda maxime vitae, tenetur harum
-        doloremque minus neque modi excepturi? Minus ipsa neque vel, quia animi
-        dolore.
+        I am a seasoned web developer and my main area of interest is web
+        application development. With my background in testing, being meticulous
+        has become 2nd nature to me. I truly believe that Front-End being the
+        first interaction of the user with the app should focus on providing a
+        positive user experience. I choose this field because it's fun to be
+        creative, interesting to understand user phycology and design elements
+        to enhance end-users' experience.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10 items-center justify-center">
         {services.map((service, i) => (

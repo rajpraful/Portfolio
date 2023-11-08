@@ -15,14 +15,16 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  zysk,
+  trica,
+  gojek,
+  refcoat,
+  vidyawin,
+  tricass,
+  takatuf,
+  reproaster,
+  revvin,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +44,23 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "HTML, CSS, JS, TS",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Next.js, React.js, Three.js",
+    icon: web,
+  },
+  {
+    title: "Tailwind, MUI, Styled Components",
+    icon: css,
+  },
+  {
+    title: "PWA, Playstore, AWS",
+    icon: mobile,
+  },
+  {
+    title: "UI-UX, Figma",
     icon: creator,
   },
 ];
@@ -73,12 +79,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   // {
-  //   name: "Tailwind CSS",
-  //   icon: tailwind,
+  //   name: "Redux Toolkit",
+  //   icon: redux,
   // },
   // {
   //   name: "Three JS",
@@ -96,50 +102,27 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Frontend Developer, Tech Lead, Core team member",
+    company_name: "Zyzk Technologies PVT LTD",
+    company_link: "https://www.zysk.tech/",
+    icon: zysk,
+    iconBg: "#ffffff",
+    date: "Feb 2018 - Jul 2022 (4+ years)",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I acquired knowledge, successfully applied and introduced novel frameworks/technologies like Next.js, React-hook-form.",
+      "Front end architect, Tech lead",
+      "Design-code method to improve UI, UX, and technical aspects of the app",
+      "Client management, QA team management, Scrum master",
+      "Hiring, training, and deploying freshers to projects",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Senior Frontend Developer",
+    company_name: "Trica - a Letsventure company",
+    company_link: "https://www.trica.co/",
+    icon: trica,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Aug 2022 - present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -178,67 +161,172 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Refcoat Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "My first SEO-friendly website which is intuitive, responsive from mobile to XL screens.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "SASS",
         color: "pink-text-gradient",
       },
+      {
+        name: "Bootstrap",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: refcoat,
+    source_project_link: "https://www.refcoat.com/",
   },
   {
-    name: "Job IT",
+    name: "Takatuf HR tool",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Fully responsive app for HRs to maintain employee records with dynamic surveys. Custom form component to handle validation and security",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Redux",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "SASS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: takatuf,
   },
   {
-    name: "Trip Guide",
+    name: "Revvin Garages",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Designed, developed, and released 2 PWAs to the playstore for garage and end users. Implemented real-time status update, Google maps, React-hook-form, query params, MUI animations.",
     tags: [
       {
-        name: "nextjs",
+        name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MUI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Redux",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "PWA",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Play-store",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: revvin,
+  },
+  {
+    name: "Gojek Careers Website",
+    description:
+      "Developed SEO friendly website and blog pages(Static + Server generated) using CMS integration, Whatsapp and Lever integratoin.",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Ghost CMS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Whatsapp",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: gojek,
+    source_project_link: "https://www.gojek.io/",
+  },
+  {
+    name: "Reproster Dealer",
+    description:
+      "Complex table components with advanced filters, Fully responsive application with dynamic theme configuration. Custom CSS styling and variables without any UI library, Google recaptcha authentication, lazy loading",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SASS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: reproaster,
+  },
+  {
+    name: "Vidyawin ed-tech",
+    description:
+      "Tech Lead - Fully responsive PWA, multi-language support. Vimeo, Razorpay, PDF viewer, Cheat detection, DB design, UI, UX, Team and Client management.",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MUI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "PWA",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Vimeo",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Razorpay",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vidyawin,
+    source_project_link: "https://www.vidyawin.com/",
+  },
+  {
+    name: "Trica - Letsventure",
+    description:
+      "Frontend Lead - Develop and maintain fully responsive products for ESOP, Capital management, Portfolios along with Team development",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MUI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Handsontable",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Bitcloud",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tricass,
+    source_project_link: "https://www.trica.co/",
   },
 ];
 

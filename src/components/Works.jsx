@@ -2,7 +2,7 @@ import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { github } from "../assets";
+import { externalLink } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -28,35 +28,27 @@ const ProjectCard = ({
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer opacity-80"
-            >
-              <img
-                src={github}
-                alt="github"
-                className="w-2/3 h-2/3 object-contain"
-              />
+          {/* {source_project_link && (
+            <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+              <div
+                onClick={() => window.open(source_project_link, "_blank")}
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer opacity-80"
+              >
+                <img
+                  src={externalLink}
+                  alt="github"
+                  className="w-2/3 h-2/3 object-contain rounded-full"
+                />
+              </div>
             </div>
-          </div>
-          <div className="absolute top-0 right-[50px] flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_project_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer opacity-80"
-            >
-              <img
-                src={github}
-                alt="github"
-                className="w-2/3 h-2/3 object-contain"
-              />
-            </div>
-          </div>
+          )} */}
         </div>
 
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          <p className="mt-2 text-secondary text-[14px] h-[120px]">
+            {description}
+          </p>
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag, i) => (
@@ -74,18 +66,28 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText}`}>My Projectsr</p>
+        <p className={`${styles.sectionSubText}`}>My Projects</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-secondary text-[17px] max-w-4xl leading-[30px]"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque neque
-          tenetur quibusdam laboriosam fuga obcaecati, eum nostrum nam sapiente
-          deserunt temporibus ad sunt dignissimos dolore quod ipsum nulla.
-          Aspernatur, omnis.
+          As a senior frontend developer, I take pride in my work and am
+          passionate about creating engaging web experiences. Below, you'll find
+          a selection of projects that reflect my skills and expertise. These
+          projects encompass a variety of technologies and showcase my ability
+          to craft responsive, user-friendly websites and applications. Each
+          project is a testament to my commitment to clean code, thoughtful
+          design, and an unwavering dedication to delivering exceptional user
+          experiences.
+          <br />
+          <br />
+          Feel free to explore these projects to get a glimpse of my work. If
+          you have any questions or are interested in collaborating, don't
+          hesitate to reach out. I'm always excited to take on new challenges
+          and projects.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">

@@ -20,15 +20,17 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import resume from "./resume.jpeg";
+import zysk from "./company/zysk.png";
+import trica from "./company/trica.png";
+import externalLink from "./externalLink.png";
+import gojek from "./gojek.png";
+import refcoat from "./refcoat.png";
+import tricass from "./trica.png";
+import vidyawin from "./vidyawin.png";
+import takatuf from "./takatuf.png";
+import reproaster from "./reproaster.png";
+import revvin from "./revvin.png";
 
 export {
   logo,
@@ -52,11 +54,15 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  resume,
+  zysk,
+  trica,
+  externalLink,
+  gojek,
+  refcoat,
+  vidyawin,
+  tricass,
+  takatuf,
+  reproaster,
+  revvin,
 };
