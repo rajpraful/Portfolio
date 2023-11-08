@@ -22,7 +22,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-100 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex items-center">
             Praful &nbsp;
-            <span className="md:hidden text-[14px] font-medium">
+            <span className="md:hidden text-[12px] font-medium">
               (5+ years)
             </span>
             <span className="md:block hidden text-[14px] font-medium">
@@ -66,14 +66,14 @@ const Navbar = () => {
             <img
               src="https://cdn-icons-png.flaticon.com/256/174/174857.png"
               alt="LinkedIn"
-              className="w-[28px] h-[28px] object-contain cursor-pointer mr-6"
+              className="w-[20px] h-[20px] object-contain cursor-pointer mr-4"
             />
           </a>
           <a href="/Praful_React_Profile.pdf" target="_blank">
             <img
               src={resume}
               alt="Resume"
-              className="w-[36px] h-[36px] object-contain cursor-pointer rounded-full mr-6"
+              className="w-[20px] h-[20px] object-contain cursor-pointer rounded-full mr-4"
             />
           </a>
           <img
