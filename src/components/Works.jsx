@@ -74,7 +74,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-4xl leading-[30px]"
         >
-          As a senior frontend developer, I take pride in my work and am
+          As a senior Frontend Engineer, I take pride in my work and am
           passionate about creating engaging web experiences. Below, you'll find
           a selection of projects that reflect my skills and expertise. These
           projects encompass a variety of technologies and showcase my ability

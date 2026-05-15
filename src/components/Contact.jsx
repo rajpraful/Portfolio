@@ -35,7 +35,7 @@ const Contact = () => {
           to_email: "prafulraj.work@gmail.com",
           message: form.message,
         },
-        "1gq-QjbcRP1kJjx_F"
+        "1gq-QjbcRP1kJjx_F",
       )
       .then(
         () => {
@@ -51,7 +51,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
           alert("Something went wrong!");
-        }
+        },
       );
   };
 
@@ -106,6 +106,7 @@ const Contact = () => {
           <button
             type="submit"
             className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded hover:opacity-60 hover:shadow-sm"
+            disabled={loading}
           >
             {loading ? "Sending..." : "Send"}{" "}
           </button>
