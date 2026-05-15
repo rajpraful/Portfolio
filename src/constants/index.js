@@ -9,7 +9,7 @@ import {
   css,
   reactjs,
   redux,
-  tailwind,
+  mantine,
   nodejs,
   mongodb,
   git,
@@ -18,10 +18,12 @@ import {
   threejs,
   zysk,
   trica,
+  forge,
   gojek,
   refcoat,
   vidyawin,
   tricass,
+  forgess,
   takatuf,
   reproaster,
   revvin,
@@ -44,23 +46,23 @@ export const navLinks = [
 
 const services = [
   {
-    title: "HTML, CSS, JS, TS",
+    title: "HTML, CSS, SCSS, SASS, JS, TS, React.js, Next.js",
     icon: backend,
   },
   {
-    title: "Next.js, React.js, Three.js",
-    icon: web,
-  },
-  {
-    title: "Tailwind, MUI, Styled Components",
+    title: "Bootstrap, Tailwind, Mantine, MUI, Styled components",
     icon: css,
   },
   {
-    title: "PWA, Playstore, AWS",
+    title: "Github, Bitbucket, Vite, ESLint, Prettier, Swagger",
+    icon: web,
+  },
+  {
+    title: "AWS EC2, S3, Vercel, CI/CD, Firebase, Playstore",
     icon: mobile,
   },
   {
-    title: "UI-UX, Figma",
+    title: "UI-UX, Figma, Zeplin, Storybook, Whiteboarding",
     icon: creator,
   },
 ];
@@ -79,8 +81,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Mantine CSS",
+    icon: mantine,
   },
   // {
   //   name: "Redux Toolkit",
@@ -103,10 +105,10 @@ const technologies = [
 const experiences = [
   {
     title: "Frontend Developer, Tech Lead, Core team member",
-    company_name: "Zyzk Technologies PVT LTD",
+    company_name: "Zysk Technologies PVT LTD",
     company_link: "https://www.zysk.tech/",
     icon: zysk,
-    iconBg: "#ffffff",
+    iconBg: "#f7f7f7",
     date: "Feb 2018 - Jul 2022 (4+ years)",
     points: [
       "I acquired knowledge, successfully applied and introduced novel frameworks/technologies like Next.js, React-hook-form.",
@@ -122,12 +124,26 @@ const experiences = [
     company_link: "https://www.trica.co/",
     icon: trica,
     iconBg: "#E6DEDD",
-    date: "Aug 2022 - present",
+    date: "Aug 2022 - NOV 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Frontend Engineer",
+    company_name: "Forge.gg - Playtest, Market and Sell Great Steam Games",
+    company_link: "https://www.forge.gg/",
+    icon: forge,
+    iconBg: "#000000",
+    date: "JAN 2024 - present",
+    points: [
+      "Developing and maintaining Authentication system, GameHQ core, Playtester.gg and Client plugin systems.",
+      "Managing Forgecom website, Playtester.gg and multiple client websites.",
+      "Quick delivery of product prototypes, introducing new tools and packages to handle complex requirements",
+      "Collaborating with cross-functional members including product manager, designers, and other developers to create high-quality products.",
     ],
   },
 ];
@@ -327,6 +343,43 @@ const projects = [
     ],
     image: tricass,
     source_project_link: "https://www.trica.co/",
+  },
+  {
+    name: "Forge.gg - Playtester",
+    description:
+      "Frontend Lead - Develop and maintain fully responsive products for Playtest, Market and Sell Great Steam Games",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SASS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Mantine",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "NPM",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bitcloud",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Storybook",
+        color: "green-text-gradient",
+      },
+    ],
+    image: forgess,
+    source_project_link: "https://playtester.gg/",
   },
 ];
 

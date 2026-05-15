@@ -47,7 +47,7 @@ const About = () => {
         has become 2nd nature to me. I truly believe that Front-End being the
         first interaction of the user with the app should focus on providing a
         positive user experience. I choose this field because it's fun to be
-        creative, interesting to understand user phycology and design elements
+        creative, interesting to understand user psychology and design elements
         to enhance end-users' experience.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10 items-center justify-center">

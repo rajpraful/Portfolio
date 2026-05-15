@@ -17,16 +17,18 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
+import mantine from "./tech/mantine.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import resume from "./resume.jpeg";
 import zysk from "./company/zysk.png";
 import trica from "./company/trica.png";
+import forge from "./company/forge.png";
 import externalLink from "./externalLink.png";
 import gojek from "./gojek.png";
 import refcoat from "./refcoat.png";
 import tricass from "./trica.png";
+import forgess from "./forge.png";
 import vidyawin from "./vidyawin.png";
 import takatuf from "./takatuf.png";
 import reproaster from "./reproaster.png";
@@ -51,17 +53,19 @@ export {
   nodejs,
   reactjs,
   redux,
-  tailwind,
+  mantine,
   typescript,
   threejs,
   resume,
   zysk,
   trica,
+  forge,
   externalLink,
   gojek,
   refcoat,
   vidyawin,
   tricass,
+  forgess,
   takatuf,
   reproaster,
   revvin,
